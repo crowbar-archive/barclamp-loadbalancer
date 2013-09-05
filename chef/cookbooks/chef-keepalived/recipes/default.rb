@@ -51,7 +51,7 @@ node.set["loadbalancer"]["public_ip"] = public_ip
 node.set["loadbalancer"]["admin_ip"] = admin_ip
 #lets leave here an entity for hosts wich may be helpfull when we going to introduce ssl support for lb
 node.set["loadbalancer"]["public_host"] = "public.#{service_name}.#{domain}"
-node.set["loadbalancer"]["admin_host"] = "#{service_name}.#{domain}"
+node.set["loadbalancer"]["admin_host"] = "admin.#{service_name}.#{domain}"
 
 node.save
 
