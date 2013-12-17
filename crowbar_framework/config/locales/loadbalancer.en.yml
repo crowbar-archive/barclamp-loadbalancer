@@ -1,0 +1,13 @@
+en:
+  barclamp:
+    loadbalancer:
+      edit_attributes:
+        attributes: Attributes
+        quantum_instance: Quantum Instance
+        cinder_instance: Cinder Instance
+        glance_instance: Glance Instance
+        keystone_instance: Keystone Instance
+        swift_instance: Swift Instance
+        nova_instance: Nova Instance
+      edit_deployment:
+        deployment: Deployment
